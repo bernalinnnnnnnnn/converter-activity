@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ff77aa;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form[name="calculator"] {
+    background-color: #2e1b2b;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#convert {
+    grid-column: span 2;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff77aa;
+    color: #1c1c1c;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#convert:hover {
+    background-color: #ff5599;
+}
